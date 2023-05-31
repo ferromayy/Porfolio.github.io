@@ -75,14 +75,105 @@
               no puedo decir nada porque despues me matan jejejejejejjeeje no se
               que estoy hablando pero bueno estoy en esto siempre. });
             </p>
-            <div class="colum3">
-              <h3>Skills</h3>
-              <h3>Experience</h3>
-              <h3>Education</h3>
+            <div class="colum-2-3">
+              <h3 class="tabb activee" onclick="opentab('skills')">Skills</h3>
+              <h3 class="tabb" onclick="opentab('experience')">Experience</h3>
+              <h3 class="tabb" onclick="opentab('professional education')">
+                Professional Education
+              </h3>
+            </div>
+            <div class="colum-content activeee" id="skills">
+              <ul>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>javascript</li>
+                <li>Redux.js</li>
+                <li>postgress</li>
+              </ul>
+            </div>
+            <div class="colum-content" id="experience">
+              <ul>
+                <li>
+                  <span>Teaching assistant Henry Bootcamp</span> <br />
+                  <span class="sentence">
+                    Coordinate, guide, provide assistance and promote
+                    collaboration to new students
+                  </span>
+                </li>
+                <li>
+                  <span>Administration. Tortuga Hostel</span> <br />
+                  <span class="sentence">
+                    Payment processing, invoicing, collection,Customer service
+                    and reservation management.</span
+                  >
+                </li>
+                <li>
+                  <span>Co-Founder. Eirene Candles</span> <br /><span
+                    class="sentence"
+                  >
+                    Implementing the strategic and operative plans of the
+                    business.</span
+                  ><br />
+                  <span class="sentence">
+                    Coordinating network management, marketing and customer
+                    service.
+                  </span>
+                  <br />
+                  <span class="sentence">
+                    Overseeing delivery and follow-up of orders.
+                  </span>
+                </li>
+                <li>
+                  <span>Supply chain administrator. Acopiacruz SRL</span> <br />
+                  <span class="sentence">
+                    Planning and control over suppliers and buyers
+                  </span>
+                  <br />
+                  <span class="sentence">
+                    Supervising loading and unloading of trucks.</span
+                  ><br />
+                  <span class="sentence"
+                    >Invoicing with suppliers and buyers for month-end closing.
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div class="colum-content" id="professional education">
+              <ul>
+                <li>
+                  <span>Full Stack Web Developer. Henry Bootcamp</span> <br />
+                  <span class="sentence">
+                    700 hours of theoretical and practical courses
+                  </span>
+                </li>
+                <li>
+                  <span
+                    >Degree in Agricultural Administration. Siglo XXI
+                    University</span
+                  >
+                  <br />
+                  <span class="sentence"> Completed.</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tabb");
+      var tabcontents = document.getElementsByClassName("colum-content");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("activee");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("activeee");
+        }
+        event.currentTarget.classList.add("activee");
+        document.getElementById(tabname).classList.add("activeee");
+      }
+    </script>
   </body>
 </html>
