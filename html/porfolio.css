@@ -16,7 +16,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 10px;
+  padding: 20px 15px;
   background: whitesmoke;
   display: flex;
   justify-content: space-between;
@@ -29,7 +29,7 @@ body {
   color: #07ae8a;
   text-decoration-line: none;
   font-weight: 900;
-  padding-right: 30px;
+  padding-right: 45px;
 }
 
 .navBar:hover,
@@ -117,10 +117,18 @@ body {
 }
 
 .contact {
-  position: absolute;
+  /* position: absolute;
   display: flex;
   justify-content: space-between;
   bottom: 10%;
+  width: 250px; */
+  margin-top: 5%;
+  margin-right: -13%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: 30px;
   width: 250px;
 }
 
@@ -169,6 +177,7 @@ img {
   height: 500px;
   width: 600px;
 }
+
 /* -----------about---------------- */
 
 #about {
@@ -226,17 +235,6 @@ img {
   transition: 0.5s;
 }
 
-/* .colum-2-3 .tabb.activee::after {
-  content: "";
-  width: 0;
-  height: 3px;
-  background-color: #07ae8a;
-  position: absolute;
-  left: 0;
-  bottom: -8px;
-  transition: 0.5s;
-} */
-
 .tabb.activee::after {
   width: 50%;
 }
@@ -245,11 +243,7 @@ img {
   margin-left: -30%;
 }
 .colum-content ul li {
-  /* list-style: none; */
   margin: 0.5% 0;
-}
-.colum-content ul li span {
-  /* color: #079d7c; */
 }
 
 .sentence {
