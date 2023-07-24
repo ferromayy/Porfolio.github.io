@@ -61,7 +61,7 @@ body {
 .home {
   display: flex;
   align-items: center;
-  margin-top: 120px;
+  margin-top: 160px;
   padding: 0 5%;
 }
 
@@ -75,7 +75,6 @@ body {
 
 .home-content h3 {
   font-size: 30px;
-  /* text-align: center; */
   color: #02796f;
   margin: 10px 0 20px;
   letter-spacing: -1px;
