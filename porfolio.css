@@ -384,6 +384,12 @@ body {
   display: block;
   transition: transform 0.5s;
 }
+.work .project-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
 
 #img1 {
   background-size: cover;
