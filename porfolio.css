@@ -333,9 +333,8 @@ body {
   }
 
   #img4 {
-    width: 300px; /* Utilizamos el 100% para que se ajuste al ancho del contenedor en pantallas pequeñas */
+    width: 300px;
     height: 300px;
-    /* padding-top: 20.416%;  */
   }
 }
 /* ------------------PORTFOLIO------------------ */
