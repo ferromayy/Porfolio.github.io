@@ -365,6 +365,9 @@ body {
 }
 
 .workList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 10px;
   display: grid;
   /* grid-template-columns: 1fr 1fr; */
@@ -398,6 +401,12 @@ body {
   width: 100%;
   height: 100%;
   text-decoration: none;
+}
+#img6 {
+  background-size: cover;
+  background-image: url(img/GlobalMarkets.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 #img1 {
