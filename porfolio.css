@@ -172,6 +172,7 @@ body {
 
 #img3 {
   background-image: url(img/2617C765-BA88-41E9-8394-9683A6A7833C.jpg);
+  border-radius: 1000%;
   background-size: cover;
   display: flex;
   justify-content: center;
